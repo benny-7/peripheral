@@ -1,0 +1,9 @@
+参考链接：https://blog.csdn.net/qq_42017846/article/details/128163421?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167287104016800192213236%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167287104016800192213236&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-3-128163421-null-null.142^v68^control,201^v4^add_ask,213^v2^t3_control1&utm_term=linux%20iic%E9%A9%B1%E5%8A%A8%E6%A1%86%E6%9E%B6&spm=1018.2226.3001.4187
+
+i2c驱动架构：
+  i2c设备驱动层：具体的i2c设备驱动，通过i2c控制器和CPU进行数据交换，主要结构体：i2c_client, i2c_driver
+  i2c核心层：提供i2c总线驱动和i2c设备驱动的注册注销方法
+  i2c总线驱动层：i2c控制器驱动，由SOC厂家提供，主要结构体：i2c_adapter, i2c_algorithm
+
+
+
